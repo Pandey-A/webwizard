@@ -15,7 +15,7 @@ const HeroSection = () => {
                 <br></br>
                 
         <div></div><h1 className="text-white mb-4 text-center text-4xl lg:text-6xl font-extrabold">
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-500 to bg-pink-500'>Hello , I'm {""}</span>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-500 to bg-pink-500'>Hello , I&apos;m {""}</span>
             <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -34,11 +34,11 @@ const HeroSection = () => {
     />
         </h1>
         <p className='text-white text-lg text-center px-9 mb-6 lg:text-xl'>
-        Ah, greetings, traveler of the digital expanse! It seems you've stumbled upon the sanctum of the Web Wizard himself – Doctor Strange at your service. What brings you to seek the wisdom of the arcane arts intertwined with the mysteries of coding? 
+        Ah, greetings, traveler of the digital expanse! It seems you&apos;ve stumbled upon the sanctum of the Web Wizard himself – Doctor Strange at your service. What brings you to seek the wisdom of the arcane arts intertwined with the mysteries of coding? 
         Picture yourself as a novice apprentice, eager to learn the secrets of the web. Close your eyes and envision the code as a tapestry of intricate spells waiting to be unraveled. With each keystroke, you cast your own enchantments upon the digital canvas, bringing your visions to life.
         </p>
         <p className='text-white text-lg text-center mb-6 lg:text-xl'>
-        So, are you prepared to embark on this journey into the heart of the digital realm? With the Web Wizard by your side, there's no limit to what you can achieve. Let us begin, and may the magic of coding illuminate your path to greatness!
+        So, are you prepared to embark on this journey into the heart of the digital realm? With the Web Wizard by your side, there&apos;s no limit to what you can achieve. Let us begin, and may the magic of coding illuminate your path to greatness!
         </p>
         <div className='flex justify-center'>
             <br></br>
@@ -93,7 +93,7 @@ const HeroSection = () => {
           </h1>
           <div className="border-2 w-60 px-10 border-white inline-block mb-2"></div>
           <h2 className='text-white mb-4 text-left px-6 lg:text-xl flex justify-around'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h2>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &apos;Content here, content&apos; here&apos;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a &apos;search&apos; for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h2>
         </div>
     </section>
     
