@@ -44,7 +44,7 @@ export default function Home(){
                             <div className="bg-gray-100 w-64 p-2 flex items-center "><MdLockOutline className="text-gray-400 m-2"/>
                             <input type="password" name="password" placeholder="Password" className="bg-gray-100 outline-none text-sm flex-1" /></div>
                         </div>
-                        <div className="flex justify-between item w-64 mb-5 ">
+                        <div className="flex justify-center gap-10 item w-full mb-5 ">
                             <label className="flex justify-center text-xs"><input type="checkbox" name="remember" className="mr-1" />Remember Me</label>
                             <a href="#" className="text-xs">Forgot Password?</a>
                         </div>
