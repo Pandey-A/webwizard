@@ -15,13 +15,12 @@ const Navbar = () => {
             <div className='flex items-center justify-between h-16'>
                 <div className='flex items-center'>
                     <div className='flex-shrink-0 flex justify-start'>
-                        <Image src="/images/logo.png" alt="logo" width={80} height={50}  />
+                        <Image src="/images/dr.png" alt="dr" width={60} height={50} />
                     </div>
                 </div>
                 <div className='hidden md:block'>
                     <div className='ml-4 flex items-center space-x-4'>
                         <Link href='/' className='text-white'>Home</Link>
-                        <Link href='/learn' className='text-white'>Learn</Link>
                         <Link href='/team' className='text-white'>Team</Link>
                         <Link href='/signup' className='text-white'><button className=' px-6 py-3 rounded-full mr-4 bg-purple-500 hover:bg-slate-200 text-black '>Sign Up</button></Link>
                     </div>
@@ -63,9 +62,8 @@ const Navbar = () => {
         {isClick && (
             <div className="md:hidden">
                 <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                <a href='/' className='text-white'>Home</a>
-                        <Link href='/' className='text-white block'>Learn</Link>
-                        <Link href='/learn' className='text-white block'>Contact</Link>
+                <Link href='/' className='text-white'>Home</Link>
+                        <Link href='/team' className='text-white block'>Team</Link>
                         <Link href='/signup' className='text-white block'>Sign Up</Link>
                 </div>
             </div>

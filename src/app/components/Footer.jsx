@@ -20,9 +20,9 @@ function Footer() {
 							<FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
 							<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
 						</div>
-                        <Image  className="pb-8" src="/images/drstrange.png"
-                        alt="drstrange"
-                        width={200}
+                        <Image  className="pb-10" src="/images/dr.png"
+                        alt="dr"
+                        width={100}
                         height={200} />
 					</ul>
 				</div>
