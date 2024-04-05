@@ -45,7 +45,7 @@ const HeroSection = () => {
         <div className='flex justify-center'>
             <br></br>
             <br></br>
-            <Link href='/' ><button className=' px-8 py-4 sm:w-fit rounded-full mr-4 bg-purple-500 hover:bg-slate-200 text-black '>Explore World</button></Link>
+            <Link href='/team' ><button className=' px-8 py-4 sm:w-fit rounded-full mr-4 bg-purple-500 hover:bg-slate-200 text-black '>Explore World</button></Link>
             
             <Image src="/images/web.png" alt='web' height={300} width={300} className='absolute transform -transform-x-6 -translate-y-3/7  right-8 '/>
         </div>
