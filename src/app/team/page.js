@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className='hidden md:block'>
                     <div className='ml-4 flex items-center space-x-4'>
                         <Link href='/' className='text-white'>Home</Link>
-                        <Link href='/learn' className='text-white'>Learn</Link>
+                        
                         <Link href='/team' className='text-white'>Team</Link>
                         <Link href='/signup' className='text-white'><button className=' px-6 py-3 rounded-full mr-4 bg-purple-500 hover:bg-slate-200 text-black '>Sign Up</button></Link>
                     </div>
@@ -72,7 +72,6 @@ const Navbar = () => {
             <div className="md:hidden">
                 <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                 <Link href='/' className='text-white'>Home</Link>
-                        <Link href='/learn' className='text-white block'>Learn</Link>
                         <Link href='/team' className='text-white block'>Team</Link>
                         <Link href='/signup' className='text-white block'>Sign Up</Link>
                 </div>
