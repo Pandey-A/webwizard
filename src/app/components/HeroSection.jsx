@@ -1,8 +1,13 @@
 "use client";
-import React from 'react'
 import Image from "next/image"
 import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
+import React, { useState } from 'react'
+import { FaGithub } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import Head from 'next/head';
+import { FaFacebookF, FaLinkedin, FaGoogle ,FaRegEnvelope } from 'react-icons/fa';
+import {MdLockOutline} from "react-icons/md";
 
 const HeroSection = () => {
   return (
@@ -69,6 +74,112 @@ const HeroSection = () => {
         height={500}
         width={500} />
         </div>
+        <>
+<div>
+    <h1 className="text-white mb-4 py-6 text-center text-4xl lg:text-7xl font-extrabold">
+    <h2 className="text-white mb-4 py-4 text-center text-4xl lg:text-3xl font-extrabold">MEET OUR</h2>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-500 to bg-pink-500'> Team {""}</span></h1></div>
+<div className="flex flex-col items-center min-h-screen py-2">
+            <Head>
+                <title>Web Wizards</title>
+            </Head>
+            <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+                <div className="bg-white rounded-2xl shadow-2xl flex w-2/3 max-2-4xl" >
+                <div className="w-3/5 p-5">
+                    <div className="text-left font-bold">
+                        <span className="text-purple-400" >Web</span>Wizards
+                    </div>
+                    <div className="py-10">
+                        <h2 className="text-3xl font-bold text-purple-400 mb-2">Developer</h2>
+                        <div className="border-2 w-10 border-purple-400 inline-block mb-2"></div>
+                        <div className="flex justify-center my-2">
+                        
+                            <a href="#" className=" rounded-full p-3 mx-1">
+                                <Image src="/images/Thor.png" alt='Thor' width={200} height={200} />
+                                
+                            </a>
+                            
+                        </div>
+                        <a href="#" className="border-2 border-purple-400 text-purple-400 rounded-full px-12 py-2 inline-block font-extrabold hover:bg-purple-400 hover:text-white">THOR</a>
+                        <div className="flex justify-center my-2">
+                        <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
+                                <FaFacebookF  />
+                                
+                            </a>
+                            <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
+                                <FaLinkedin  />
+                                
+                            </a>
+                            <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
+                                <FaGithub  />
+                                
+                            </a>
+
+                        </div>
+                    </div>
+                    </div> 
+                <div className="w-2/5 bg-purple-400 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12 ">
+                    <h2 className=" text-3xl font-bold mb-2">Hello, Friend!</h2>
+                    <div className="border-2 w-10 border-white inline-block mb-2"></div>
+                    <p className="mb-2">Myself Thor the son of Odin and I developed this website for you  I know basic web devlopment and my current techstack is MERN I am a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you are looking for a developer to add to your team, I would love to hear from you </p>
+                    
+                </div>
+                </div>
+            </main>
+        </div>
+
+
+        <div className="flex flex-col items-center min-h-screen py-2">
+            <Head>
+                <title>Web Wizards</title>
+            </Head>
+            <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+                <div className="bg-white rounded-2xl shadow-2xl flex w-2/3 max-2-4xl" >
+                <div className="w-3/5 p-5">
+                    <div className="text-left font-bold">
+                        <span className="text-purple-400" >Web</span>Wizards
+                    </div>
+                    <div className="py-10">
+                        <h2 className="text-3xl font-bold text-purple-400 mb-2">Designer</h2>
+                        <div className="border-2 w-10 border-purple-400 inline-block mb-2"></div>
+                        <div className="flex justify-center my-2">
+                        
+                            <a href="#" className=" rounded-full p-3 mx-1">
+                                <Image src="/images/Spider.png" alt='Spider' width={200} height={200} />
+                                
+                            </a>
+                            
+                        </div>
+                        <a href="#" className="border-2 border-purple-400 text-purple-400 rounded-full px-12 py-2 inline-block font-extrabold hover:bg-purple-400 hover:text-white">SPIDEY</a>
+                        <div className="flex justify-center my-2">
+                        <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
+                                <FaFacebookF  />
+                                
+                            </a>
+                            <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
+                                <FaLinkedin  />
+                                
+                            </a>
+                            <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
+                                <FaGithub  />
+                                
+                            </a>
+
+                        </div>
+                    </div>
+                    </div> 
+                <div className="w-2/5 bg-purple-400 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12 ">
+                    <h2 className=" text-3xl font-bold mb-2">Hello, Friend!</h2>
+                    <div className="border-2 w-10 border-white inline-block mb-2"></div>
+                    <p className="mb-2">Your Friendly Neighbourhood Spiderman As a born and raised New Yorker, I take food quite seriously. In fact, I based my entire graphic design career around it! I have worked for a variety of restaurants and franchises to create logos, brochures, websites, menus, product labels and countless other deliverables</p>
+                    
+                </div>
+                </div>
+            </main>
+        </div>
+
+
+</>
     </section>
     
   )
